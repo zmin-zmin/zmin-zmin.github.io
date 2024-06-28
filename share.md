@@ -52,15 +52,10 @@ https://open.nb-connect.cn/oauth/authorize?client_id=appID&redirect_uri=redirect
 
 若提示“该链接无法访问”，请检查参数是否填写错误，是否拥有授权权限。
 
-<aside>
 💡 尤其注意：由于授权操作安全等级较高，所以在发起授权请求时，Connect会对授权链接做正则强匹配校验，如果链接的参数顺序不对，授权页面将无法正常访问
 
-</aside>
-
-<aside>
 💡 尤其注意：跳转回调redirect_uri，Connect强制效验https链接来确保授权code的安全性。
 
-</aside>
 
 **用户同意授权后**
 
